@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>首頁</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <style>
+    .space{
+        height: 200px;
+        background-color: #FFFFFF;
+    }
+    .inner_item{
+        
+        width: 100%;
+        height: 3900px;
+        background: #dddddd;
+	    z-index: 2;
+        }
+    .index_word{
+        width: 1100px;
+        height: 150px;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .index_word2{
+        width: 100px;
+        height: 600px;
+        float: right;
+        margin-right: 400px;
+    }
+    .index_word3{
+        width: 130px;
+        height: 600px;
+        float: left;
+        margin-left: 300px;
+    }
+    .index_item{
+        width: 1200px;
+        height: 600px;
+        margin: auto;
+        padding-top: 75px;
+	    margin-bottom: 500px;
+    }
+    .index_item1{
+        width: 600px;
+        height: 400px;
+        margin: auto;
+	    margin-bottom: 250px;
+    }    
+    .index_item2{
+        width: 400px;
+        height: 600px;
+        margin-left: 300px;
+    }
+    .index_item3{
+        width: 400px;
+        height: 600px;
+        margin: auto;
+	    margin-bottom: 100px;
+        margin-right: 300px;
+    }
+    .index_item4{
+        width: 600px;
+        height: 400px;
+        margin: auto;
+	    padding-bottom: 100px;
+    }
+    .index_footer{
+        text-align: center;
+        width: 100%;
+	    padding-bottom: 99px;
+	    background: #FFFFFF;
+	    z-index: 2;
+    }
+    .f1 ul{
+        display: inline-flex;
+    }
+    .f1 li{  
+        padding: 6px 10px;
+    }
+
+    .f2 ul{
+        display: inline-flex;
+    }
+    .f2 li{
+        padding: 6px 10px;
+        
+    }
+    .f2 li a{
+        color:#aaa;
+        text-decoration: none;
+    }
+    .home{
+        height: 720px;
+    }
+    
+    
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="super_container">
+
+        <header class="header">
+            <div class="header_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                                <div class="logo"><a href="index.html">QueenStore.</a></div>
+                                <nav class="main_nav">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="shopq.html">Shop</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="login.html">Member</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="header_extra ml-auto">
+                                    <div class="shopping_cart">
+                                        <a href="cart.html">
+                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
+                                                <g>
+                                                    <path d="M440.1,422.7l-28-315.3c-0.6-7-6.5-12.3-13.4-12.3h-57.6C340.3,42.5,297.3,0,244.5,0s-95.8,42.5-96.6,95.1H90.3
+													c-7,0-12.8,5.3-13.4,12.3l-28,315.3c0,0.4-0.1,0.8-0.1,1.2c0,35.9,32.9,65.1,73.4,65.1h244.6c40.5,0,73.4-29.2,73.4-65.1
+													C440.2,423.5,440.2,423.1,440.1,422.7z M244.5,27c37.9,0,68.8,30.4,69.6,68.1H174.9C175.7,57.4,206.6,27,244.5,27z M366.8,462
+													H122.2c-25.4,0-46-16.8-46.4-37.5l26.8-302.3h45.2v41c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h139.3v41
+													c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h45.2l26.9,302.3C412.8,445.2,392.1,462,366.8,462z" />
+                                                </g>
+                                            </svg>
+                                            <div>Cart</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+        <!-- Home -->
+        <div class="home">
+              <div class="home_slider_container">
+                <!-- Home Slider -->
+                <div class="owl-carousel owl-theme home_slider">
+                    <!-- Slider Item -->
+                    <div class="owl-item home_slider_item">
+                        <div class="home_slider_background" style="background-image:url(https://picsum.photos//2500/1080?/random=2)"></div>
+                        <div class="home_slider_content_container">
+                            <div class="container">
+                                <div class="row">                         
+                                    <div class="col">
+                                        <div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+                                            <div class="home_slider_title">歡慶線上商城開幕!<br></div><br><br>
+                                            <div class="button button_light home_button"><a href="shopq.html">Shop Now</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider Item -->
+                    <div class="owl-item home_slider_item">
+                        <div class="home_slider_background" style="background-image:url(https://picsum.photos//2500/1080?/random=1)"></div>
+                        <div class="home_slider_content_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+                                            <div class="home_slider_title">簡約、時尚、文青<br>風格多樣任君挑選</div><br>
+                                            <div class="button button_light home_button"><a href="shopq.html">Shop Now</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider Item -->
+                    <div class="owl-item home_slider_item">
+                        <div class="home_slider_background" style="background-image:url(https://picsum.photos//2500/1080?/random=3)"></div>
+                        <div class="home_slider_content_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_slider_content" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+                                            <div class="home_slider_title">春夏新品<br>強勢回歸</div><br>
+                                            <div class="button button_light home_button"><a href="shopq.html">Shop Now</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Home Slider Dots -->
+                
+ 
+                <div class="home_slider_dots_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <ul class="home_slider_dots">
+                                    <ul>
+                                        <li class="home_slider_custom_dot active">01.</li>
+                                        <li class="home_slider_custom_dot">02.</li>
+                                        <li class="home_slider_custom_dot">03.</li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+
+        
+        <div class="inner_item">
+            <div class="space"> </div>
+            <div class="index_word">
+                <img class="d-block w-100" src="images/index_photo/text1.png" alt="First-word">                
+            </div>
+            <div class="index_item">
+                <img class="d-block w-100" src="https://picsum.photos//1223/826?/random=4" alt="First">                
+            </div>
+            <div class="index_item1">
+                <img class="d-block w-100" src="https://picsum.photos//1218/827?/random=5" alt="Second">                
+            </div>
+            <div class="index_word2">
+                <img class="d-block w-100" src="images/index_photo/text2.png" alt="Second-word">                
+            </div>
+            <div class="index_item2">
+                <img class="d-block w-100" src="https://picsum.photos//499/682?/random=6" alt="Third">
+            </div>
+            <div class="index_word3">
+                <img class="d-block w-100" src="images/index_photo/text3.png" alt="Third-word">                
+            </div>              
+            <div class="index_item3">
+                <img class="d-block w-100" src="https://picsum.photos//393/536?/random=7" alt="Forth">
+            </div>
+            <div class="index_item4">
+                <img class="d-block w-100" src="https://picsum.photos//1218/827?/random=8" alt="Fifth">
+            </div>
+        </div>
+         
+
+
+
+
+        <!-- Icon Boxes -->
+        <div class="icon_boxes">
+            <div class="container">
+                <div class="row icon_box_row">
+
+                    <!-- Icon Box -->
+                    <div class="col-lg-4 icon_box_col">
+                        <div class="icon_box">
+                            <div class="icon_box_image"><img src="images/icon_1.svg" alt=""></div>
+                            <div class="icon_box_title">國內免運費</div>
+                        </div>
+                    </div>
+
+                    <!-- Icon Box -->
+                    <div class="col-lg-4 icon_box_col">
+                        <div class="icon_box">
+                            <div class="icon_box_image"><img src="images/icon_2.svg" alt=""></div>
+                            <div class="icon_box_title">7天鑑賞期</div>
+                            <div class="icon_box_text"> </div>
+                        </div>
+                    </div>
+
+                    <!-- Icon Box -->
+                    <div class="col-lg-4 icon_box_col">
+                        <div class="icon_box">
+                            <div class="icon_box_image"><img src="images/icon_3.svg" alt=""></div>
+                            <div class="icon_box_title">24小時客服</div>
+                            <div class="icon_box_text"> </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="index_footer">
+            <div class="f1">
+                <ul>
+                    <li><a href="#">
+                        <img src="images/index_photo/fb.png" alt="fb" /></a></li>
+                    <li><a href="#">
+                        <img src="images/index_photo/ig.png" alt="ig" /></a></li>
+                    <li><a href="#">
+                        <img src="images/index_photo/line.png" alt="line" /></a></li>
+                    <li><a href="#">
+                        <img src="images/index_photo/yt.png" alt="yt" /></a></li>
+                    <li><a href="#">
+                        <img src="images/index_photo/blog.png" alt="blog" /></a></li>
+                </ul>
+            </div>  
+                
+            <div class="f2">
+                <ul>
+                    <li><a href="#">最新消息</a></li>
+                    <li><a href="#">常見問題</a></li>
+                    <li><a href="#">會員權益</a></li>                        
+                    <li><a href="#">售後服務</a></li>
+                </ul>  
+            </div>
+
+            <div class="f3">
+                <p>MON-FRI, 9:00-18:00 <span>TEL:(02)2222-2222 / FAX:(02)2222-2222</span></p>
+                <p>service@QueenStore.com.tw</p>
+                &copy;2022 QueenStore.ALL Rights Reserved
+            </div>
+        </div>
+
+
+
+
+        <div class="footer_overlay"></div>
+        <footer class="footer">
+            <div class="footer_background" style="background-image:url(images/footer.jpg)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                            <div class="footer_logo"><a href="index.html">QueenStore.</a></div>
+                            <div class="footer_social ml-lg-auto"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+</body>
+
+</html>
